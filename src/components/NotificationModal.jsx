@@ -40,7 +40,7 @@ export default function NotificationModal({ latestSong, onClose }) {
       <div className="modal" role="dialog" aria-modal="true" onClick={(e) => e.stopPropagation()}>
         {step === 'password' && (
           <form onSubmit={checkPassword}>
-            <h3>Send Her a Message ❤️</h3>
+            <h3>💬</h3>
             <p className="muted">Enter the notification password.</p>
             <input type="password" autoFocus value={pw} onChange={(e) => { setPw(e.target.value); setError(''); }} placeholder="Notification password" aria-label="Notification password" />
             {error && <p className="error" role="alert">{error}</p>}

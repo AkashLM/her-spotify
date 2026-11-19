@@ -9,7 +9,7 @@ export default function Header({ onRefresh, onMessage, refreshing }) {
       </div>
       <div className="topbar-actions">
         <button className="ghost" onClick={onRefresh} disabled={refreshing}>{refreshing ? 'Refreshing…' : 'Refresh'}</button>
-        <button className="primary" onClick={onMessage}>Send Her a Message ❤️</button>
+        <button className="primary" onClick={onMessage}>💬</button>
       </div>
     </header>
   );

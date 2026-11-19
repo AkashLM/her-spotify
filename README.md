@@ -86,7 +86,7 @@ The passcode is today's date in `Asia/Kolkata` as `DDMMYYYY` (e.g. 19 November 2
 
 ## 7. SMS message button
 
-"Send Her a Message ❤️" → enter the notification password → preview of the message with the **latest song** → "Open messaging app". This opens your device's default SMS app via an `sms:` link with the text prefilled; **you must press Send yourself. Nothing is sent automatically.**
+"💬" → enter the notification password → preview of the message with the **latest song** → "Open messaging app". This opens your device's default SMS app via an `sms:` link with the text prefilled; **you must press Send yourself. Nothing is sent automatically.**
 
 - No songs, or recipient number not configured → a helpful message and no SMS app opens.
 - Desktop devices without an SMS handler may do nothing; use "Copy message".
