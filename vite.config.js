@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/for-her-music-player/',
+  base: '/her-spotify/',
   build: {
     outDir: 'docs',
     emptyOutDir: true
